@@ -1,4 +1,4 @@
-/* Validacion Correo Electronico */
+/* Validacion   */
 
 const re = new RegExp("^([A-Z]{3})$");
 
@@ -8,6 +8,6 @@ let Iso3166 = "COL";
 
 if (re.exec(Iso3166) != null) { //Busca coincidencias con la expresion regular y de no encontrarlas arroja un valor null
     console.log("ISO 3166-1 Correcto");
-} else { //Si no hay concidencias se entra en un bucle hasta que el valor ingresado cumpla con la expresion regular
+} else { //Si no hay concidencias se imprime un log en consola
     console.log("ISO 3166-1 Incorrecto");
 };
