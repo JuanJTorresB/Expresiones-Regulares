@@ -1,4 +1,4 @@
-
+/* Se necesita verificar la Fecha de Vencimiento de una tarjeta de crédito para una transacción */
 
 const re = new RegExp("^(0[1-9]|1[0-2])/([0-2][0-9]|3[01])$");
 

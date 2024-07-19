@@ -1,4 +1,4 @@
-
+/* Se necesita verificar el BIN de una tarjeta de crédito para una transacción */
 
 const re = new RegExp("^([0-9]{4})\\s?([0-9]{4})\\s?([0-9]{4})\\s?([0-9]{4})$");
 

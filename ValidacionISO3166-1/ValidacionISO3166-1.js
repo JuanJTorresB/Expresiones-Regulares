@@ -1,4 +1,4 @@
-/* Validación   */
+/* Se necesita verificar el ISO de un país para registrarlo en la base de datos */
 
 const re = new RegExp("^([A-Z]{3})$");
 

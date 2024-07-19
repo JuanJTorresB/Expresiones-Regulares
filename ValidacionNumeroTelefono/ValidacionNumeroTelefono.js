@@ -1,4 +1,4 @@
-
+/* Se necesita Validar el Numero de teléfono para comunicarnos con el usuario */
 
 const re = new RegExp("^([0-9]{10})$");
 

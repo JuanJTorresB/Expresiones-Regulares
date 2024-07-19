@@ -1,4 +1,4 @@
-/* Validación Correo Electrónico */
+/* Se necesita validar un correo electrónico para un inicio de sesión */
 
 const re = new RegExp("^[\\w]+@([\\w]+\\.)+[\\w]");
 
